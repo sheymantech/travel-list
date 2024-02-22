@@ -15,7 +15,6 @@ export default function Form({ onAddItems }) {
     console.log(menuItem);
 
     // initialItems.push(menuItem);
-    // console.log(initialItems);
 
     setDescription("");
     setNameTag(1);
