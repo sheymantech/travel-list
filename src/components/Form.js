@@ -12,6 +12,7 @@ export default function Form({ onAddItems }) {
     const menuItem = { description, nameTag, packed: false, id: Date.now() };
 
     onAddItems(menuItem);
+    console.log(menuItem);
 
     // initialItems.push(menuItem);
     // console.log(initialItems);
